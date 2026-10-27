@@ -1,0 +1,17 @@
+# Safe: only an explicit Git allowlist is staged by the publishing script.
+# Prevent accidental later staging of raw evidence and credential material.
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.log
+*.html
+*.env
+.env*
+*.pem
+*.key
+*SECRET*
+*TOKEN*
+raw/
+archives/
+credentials/
